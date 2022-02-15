@@ -3,9 +3,6 @@ const mongoose = require('mongoose');
 const Employee = require('../employees.model.js');
 
 describe('Employee', () => {
-  after(() => {
-    mongoose.models = {};
-  });
 
   it('should throw an error if is no of arg "firstName", "lastName", "department" ', () => {
     const cases = [
