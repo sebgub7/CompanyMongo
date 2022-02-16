@@ -13,3 +13,5 @@ router.post('/departments', DepartmentController.postItem);
 router.put('/departments/:id', DepartmentController.postItem);
 
 router.delete('/departments/:id', DepartmentController.deleteItem);
+
+module.exports = router;
